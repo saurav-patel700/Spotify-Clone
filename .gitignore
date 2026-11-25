@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+shared/node_modules/
+
+# Build & TypeScript artifacts
+dist/
+client/dist/
+server/dist/
+shared/dist/
+*.tsbuildinfo
+coverage/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Local SQLite database & generated/uploaded audio files
+server/data/
+server/storage/
+*.db
+*.db-wal
+*.db-shm
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.parcel-cache/
+.vite/
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
